@@ -10,9 +10,6 @@ install:
 
 script: bundle exec rake site:deploy --quiet #--trace
 
-skip_cleanup: true
-github_token: 08c50a610bdd7bf15a2965246116971343eeea9f
-
 # Generate your secure token with the travis gem:
 # get Github token from your Travis CI profile page
 # gem install travis
