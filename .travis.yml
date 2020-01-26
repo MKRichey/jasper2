@@ -3,6 +3,8 @@ language: ruby
 cache: bundler
 rvm:
 - 2.5.1
+skip_cleanup: true
+keep_history: true
 
 install:
   # Install Jekyll and dependencies
